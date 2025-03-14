@@ -1,7 +1,7 @@
 # GhostMixNet
 ## Abstract
 In this work, we analyze the effectiveness of various pre-processing and attention mechanisms, as well as GhostNet modules, in the training and validation of a ResNet architecture with only 3 million parameters. Trained and evaluated on the CIFAR-10 dataset, the model reaches 95.5\% accuracy on the validation data, despite the operations being cheap enough to run on mobile or IoT devices.
-![Model Architecture](Model_arch.png)
+![Model Architecture](DL_2.png)
 ## Training Setup:
 ### Optimizer: 
 AdamW with Beta1 of 0.9 Beta2 of 0.999 and weight decay of 0.001.
